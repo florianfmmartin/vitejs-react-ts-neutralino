@@ -1,0 +1,12 @@
+{
+  "private": true,
+  "workspaces": [
+    "vite"
+  ],
+  "scripts": {
+    "dev": "yarn workspace vite run dev & yarn neu run"
+  },
+  "dependencies": {
+    "@neutralinojs/neu": "^9.1.2"
+  }
+}
